@@ -1,0 +1,50 @@
+html {
+  display: flex;
+  flex-direction: column;
+}
+
+#app-container {
+  position: relative;
+  width: 165px;
+  height: auto;
+  border: 1px solid #1a1a1a;
+  margin: 5px;
+  padding: 5px;
+  text-align: right;
+}
+
+#app-container h1 {
+  position: relative;
+  top: -5px;
+  left: -5px;
+  text-align: center;
+  font-size: 2rem;
+  width: 163px;
+  height: 45px;
+  background-color: #1a1a1a;
+  color: #f1f1f1;
+  margin-bottom: -10px;
+}
+
+#app-container input {
+  text-align: left;
+  width: 150px;
+  margin: 5px 0;
+  padding: 5px;
+}
+
+#display {
+  position: relative;
+  font-size: 2rem;
+  font-weight: bolder;
+  color: green;
+}
+
+#app-container #clear {
+  position: relative;
+  width: 150px;
+  background-color: blue;
+  color: #f1f1f1;
+  margin: 5px 5px;
+  padding: 5px;
+}
